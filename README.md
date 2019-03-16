@@ -162,7 +162,7 @@ Here is an example of the conflictsWith() method in use:
 
 ## OnlineClass
 
-The OnlineClass class only contains one member that is not inherited from Course, which is the classtype. This member allows for easier parsing of the CSV file that the data for the program is read from as well as simplifying the conflicts with method. Here are the members, constructor, and conflictsWith() logic for OnlineClass:
+The OnlineClass class only contains one member that is not inherited from Course, which is the classtype. This member allows for easier parsing of the CSV file that the data for the program is read from as well as simplifying the conflictsWith() method. Here are the members, constructor, and conflictsWith() logic for OnlineClass:
 
 ```java
 
