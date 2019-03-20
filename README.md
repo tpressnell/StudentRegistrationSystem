@@ -2,13 +2,12 @@
 A program that simulates a college student registration system that I wrote in my CS 232 class.
 
 
-This is a project, which simulates a students registration system, was assigned to my
-class to teach us about inheritance and super-classes.
+This is a project was assigned to my class to teach us about inheritance and super-classes.
 
 ## Course
 
 The core of this project is the Course class, which is the superclass for the program. It contains the members that
-are shared by both the Traditional and Online classes that are used by the program. It also implemts the abstract method conflictsWith() to allow all of the children classes to detect whether or not they conflict with each other. Here is the list of members, constructor, and abstract method from the Course class:
+are shared by both the Traditional and Online classes that are used by the program. It also implements the abstract method conflictsWith() to allow all of the children classes to detect whether or not they conflict with each other. Here is the list of the members, constructor, and abstract method from the Course class:
 
 ```java
  
@@ -194,11 +193,11 @@ The OnlineClass class only contains one member that is not inherited from Course
     }
 ```
 
-The conflictsWith() method is much simpler for the online class since there is only one case to check for. The only way that an online class has a conflict is if the user attempts to register for the same class twice. Everything else does not conflict.
+The conflictsWith() method is much simpler for the online class since there is only one case to check for. The only way that an online class can conflict with another class is if the user attempts to register for the same class twice. Everything else does not conflict.
 
 ## How to use StudentRegistrationSystem
 
-To run this program, the user needs java installed on their machine as well as access to the CSV file containing the courses that are used by the program. When the user runs the program, all of the classes are read into Course objects and added to an ArrayList. After this, the user can either search for courses, add a course to their schedule, view their trial schedule, or exit the program. To choose one of these options, the user would enter 1,2,3, or 4 respectivley and press ENTER. Following this, they would be guided by the program as to how to create their schedule. After the user has finished making hteir schedule, they would press 4, and the program will exit.
+To run this program, the user needs java installed on their machine as well as access to the CSV file containing the courses that are used by the program. When the user runs the program, all of the classes are read into Course objects and added to an ArrayList. After this, the user can either search for courses, add a course to their schedule, view their trial schedule, or exit the program. To choose one of these options, the user would enter 1,2,3, or 4 respectivley and press ENTER. Following this, they would be guided by the program as to how to create their schedule. After the user has finished making their schedule, they would press 4, and the program will exit.
 
 
 
